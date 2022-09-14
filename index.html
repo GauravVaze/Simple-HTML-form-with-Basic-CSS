@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="register">
+            <h1>Welcome!</h1>
+            <form action="post" id="order">
+                <label>First Name:</label>
+                <br>
+                <input type="text" id="fname" placeholder="Enter Your First Name" required>
+                <br><br>
+                <label>Last Name:</label>
+                <br>
+                <input type="text" id="lname" placeholder="Enter Your Last Name" required>
+                <br><br>
+                <label>Email:</label><br>
+                <input type="email" id="email" placeholder="Enter Your Email here" required><br>
+                <label>Gender:</label><br>
+                &nbsp; &nbsp;
+                <input type="radio" name="gender" id="m">
+                <span>Male</span>
+                &nbsp; &nbsp;
+                <input type="radio" name="gender" id="f">
+                <span>Female</span><br>
+                <label>Enter Date</label><br>
+                <input type="date" name="date" id="date"><br>
+                <label>Menu</label><br>
+                <input type="checkbox" name="menu">
+                <span id="dalrice">Dal Rice (30Rs)</span>
+                &nbsp; &nbsp;
+                <input type="checkbox" name="menu">
+                <span id="roti">Roti Bhaji (30Rs)</span>
+                &nbsp; &nbsp;<br>
+                <input type="checkbox" name="menu">
+                <span id="vegthali">Veg Thali (50Rs)</span>
+                &nbsp; &nbsp;
+                <input type="checkbox" name="menu">
+                <span id="misal">Misal Pav(40Rs)</span>
+                &nbsp; &nbsp;<br>
+                <input type="checkbox" name="menu">
+                <span id="pavbhaji">Pav Bhaji (50Rs)</span>
+                &nbsp; &nbsp;
+                <input type="checkbox" name="menu">
+                <span id="paratha">Paratha (70Rs)</span>
+                &nbsp; &nbsp;<br>
+                <br>
+                <label for="payment">Payment</label>
+                <select class="select">
+                    <option value="cod">Cash On Delivery</option>
+                    <option value="cupi">UPI</option>
+                    <option value="card">Card</option>
+                </select><br><br>
+
+                <input type="submit" value="Submit" class="submit">
+                <input type="reset" value="Reset" class="submit">
+
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
